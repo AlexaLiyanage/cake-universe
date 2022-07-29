@@ -8,7 +8,7 @@
    
     //database connection
 
-    $conn = new mysqli('localhost','root','','test');
+    $conn = new mysqli('localhost','root','','cake-universe');
     if($conn->connect_error){
         die('Connection Failed :' .$conn->connect_error);
     }else{
